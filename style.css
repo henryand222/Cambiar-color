@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  border: 2px solid black;
+  width: 300px ;
+  height: 180px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px
+}
+
+.button{
+  background-color: black;
+  color:white;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(27, 210, 88);
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+.dark-note button{
+  background-color: white; 
+  border: white;
+}
+
+.dark-note button:hover{
+  background-color: #ddd;
+}
